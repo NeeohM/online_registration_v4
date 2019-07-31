@@ -3,18 +3,22 @@
     box-sizing: border-box;
 }
 
+h1 {
+    font-size: 1.5rem;
+    margin-top:0;
+    padding: 20px;
+}
+
+h2,
+legend {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2d3945;
+}
 body{
     margin: 0;
     padding: 0;
     font-family: 'Merriweather', serif;
-}
-
-    
-.container
-{
-    /* display: flex;
-    flex-direction: column; */
-    
 }
 
 header {
@@ -36,23 +40,15 @@ fieldset{
     -moz-webkit: padding end 0;
     -ms-webkit: padding end 0;
     -o-webkit: padding end 0;
-    webkit: padding end 0;
+    -webkit: padding end 0;
     -webkit-padding-after: 0;
     -moz-webkit: padding after 0;
     -ms-webkit: padding after 0;
     -o-webkit: padding after 0;
-    webkit: padding after 0;
+    -webkit: padding after 0;
 
 }
-h1{
-    font-size: 1.5rem;
-    padding: 20px;
-}
-h2, legend{
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: #2d3945;
-}
+
 legend{
     padding: 25px 0;
 }
@@ -156,7 +152,7 @@ footer{
     
 .contact input,
 .contact select {
-    width: initial;
+    
     background: #eff0f1;
     border: none;
     height: 50px;
